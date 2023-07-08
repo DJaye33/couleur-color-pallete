@@ -1,4 +1,4 @@
-import { Color } from "./components";
+import { Color, Sliders } from "./components";
 
 import "./App.css";
 
@@ -7,6 +7,7 @@ function App() {
     <>
       <h1>Couleur A feature rich color pallete.</h1>
       <Color />
+      <Sliders />
     </>
   );
 }
